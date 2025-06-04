@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f0ff;
+  /* light lavender background */
+  text-align: right;
+  margin: 20px;
+  color: #3b0a59;
+  /* dark purple text */
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  background-color: #6a0dad;
+  /* medium purple menu background */
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+nav li {
+  display: inline;
+  margin-left: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+}
+
+nav a:hover {
+  background-color: #4b0082;
+  /* dark purple on hover */
+}
+
+h1 {
+  color: #800080;
+  /* bold purple title */
+}
+
+img {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* === Cats page photo sections === */
+details summary {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #e0c8f7;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+details[open] summary {
+  background-color: #d2b0f2;
+}
