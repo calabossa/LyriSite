@@ -5,6 +5,9 @@ body {
   text-align: right;
   margin: 20px;
   color: #3b0a59;
+  padding-top: 20px; /* pushes content down a bit */
+  font-size: 18px;
+  line-height: 1.6;
   /* dark purple text */
 }
 
@@ -56,4 +59,29 @@ details summary {
 
 details[open] summary {
   background-color: #d2b0f2;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 20px;
+    }
+
+    nav ul {
+        display: block;
+        text-align: center;
+    }
+
+    nav li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
 }
